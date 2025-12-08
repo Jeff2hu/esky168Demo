@@ -1,0 +1,43 @@
+{
+  "COMMON": {
+    "NO_DATA": "無資料",
+    "BACK": "返回"
+  },
+  "LOGIN": {
+    "TITLE": "登入系統",
+    "ACCOUNT": "帳號",
+    "ACCOUNT_PLACEHOLDER": "請輸入您的帳號",
+    "PASSWORD": "密碼",
+    "PASSWORD_PLACEHOLDER": "請輸入您的密碼",
+    "LOGIN": "登入",
+    "ACCOUNT_MIN_LENGTH": "帳號至少需要4個字元",
+    "PASSWORD_MIN_LENGTH": "密碼至少需要8個字元",
+    "LOGOUT": "登出"
+  },
+  "LANGUAGE": {
+    "SELECT": "選擇語言",
+    "ENGLISH": "英文",
+    "CHINESE": "中文"
+  },
+  "HOME": {
+    "TITLE": "首頁",
+    "DESCRIPTION": "這是首頁的描述",
+    "TOTAL_SALES": "總銷售額",
+    "ORDER_COUNT": "訂單數量",
+    "INVENTORY_PRODUCT": "庫存產品",
+    "QUICK_ACTIONS": "快速操作",
+    "TOTAL_CUSTOMERS": "總客戶數",
+    "SALES_MANAGEMENT": "銷售管理",
+    "MANAGE_INVENTORY": "庫存管理",
+    "MANAGE_CUSTOMERS": "客戶管理",
+    "REPORT_STATISTICS": "報表統計"
+  },
+  "SALES_MANAGEMENT": {
+    "SALES_ORDER_NUMBER": "銷貨單號",
+    "SALES_ORDER_DATE": "銷貨日期",
+    "CUSTOMER_ORDER_NUMBER": "客戶單號",
+    "CUSTOMER_NAME": "客戶名稱",
+    "WAREHOUSE_CODE": "庫別代號",
+    "SALES_TOTAL": "銷貨總額"
+  }
+}

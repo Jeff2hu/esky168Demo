@@ -1,0 +1,43 @@
+{
+  "COMMON": {
+    "NO_DATA": "No data",
+    "BACK": "Back"
+  },
+  "LOGIN": {
+    "TITLE": "Login System",
+    "ACCOUNT": "Account",
+    "ACCOUNT_PLACEHOLDER": "Enter your account",
+    "PASSWORD": "Password",
+    "PASSWORD_PLACEHOLDER": "Enter your password",
+    "LOGIN": "Login",
+    "ACCOUNT_MIN_LENGTH": "Account must be at least 4 characters",
+    "PASSWORD_MIN_LENGTH": "Password must be at least 8 characters",
+    "LOGOUT": "Logout"
+  },
+  "LANGUAGE": {
+    "SELECT": "Select Language",
+    "ENGLISH": "English",
+    "CHINESE": "Chinese"
+  },
+  "HOME": {
+    "TITLE": "Home",
+    "DESCRIPTION": "This is the home page description",
+    "TOTAL_SALES": "Total Sales",
+    "ORDER_COUNT": "Order Count",
+    "INVENTORY_PRODUCT": "Inventory Product",
+    "TOTAL_CUSTOMERS": "Total Customers",
+    "QUICK_ACTIONS": "Quick Actions",
+    "SALES_MANAGEMENT": "Sales Management",
+    "MANAGE_INVENTORY": "Manage Inventory",
+    "MANAGE_CUSTOMERS": "Manage Customers",
+    "REPORT_STATISTICS": "Report Statistics"
+  },
+  "SALES_MANAGEMENT": {
+    "SALES_ORDER_NUMBER": "Sales Order Number",
+    "SALES_ORDER_DATE": "Sales Order Date",
+    "CUSTOMER_ORDER_NUMBER": "Customer Order Number",
+    "CUSTOMER_NAME": "Customer Name",
+    "WAREHOUSE_CODE": "Warehouse Code",
+    "SALES_TOTAL": "Sales Total"
+  }
+}
