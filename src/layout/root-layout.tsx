@@ -1,3 +1,4 @@
+import Background from "@/components/common/Background/Background";
 import useAuthHandler from "@/hooks/useAuthHandler";
 import { useEffect } from "react";
 import { Outlet, useNavigate } from "react-router";
@@ -17,6 +18,7 @@ const RootLayout = () => {
   return (
     <div className="relative h-dvh w-full">
       <Outlet />
+      <Background />
     </div>
   );
 };

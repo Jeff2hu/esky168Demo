@@ -123,4 +123,36 @@
   .flex-center {
     @apply flex items-center justify-center;
   }
+
+  .gradient-brand {
+    @apply bg-linear-to-br from-blue-400 via-indigo-500 to-purple-400;
+  }
+
+  .gradient-brand-text {
+    @apply bg-linear-to-r from-blue-600 via-indigo-600 to-purple-600;
+  }
+
+  .gradient-brand-button {
+    @apply bg-linear-to-r from-blue-600 via-indigo-600 to-purple-600;
+  }
+
+  .gradient-accent-bar {
+    @apply bg-linear-to-b from-blue-500 to-purple-500;
+  }
+
+  .gradient-blue {
+    @apply bg-linear-to-br from-blue-500 to-indigo-600;
+  }
+
+  .gradient-green {
+    @apply bg-linear-to-br from-green-500 to-emerald-600;
+  }
+
+  .gradient-orange {
+    @apply bg-linear-to-br from-orange-500 to-amber-600;
+  }
+
+  .gradient-purple-pink {
+    @apply bg-linear-to-br from-purple-500 to-pink-600;
+  }
 }

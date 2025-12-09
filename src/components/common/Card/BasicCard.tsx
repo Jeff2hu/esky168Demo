@@ -10,7 +10,7 @@ const BasicCard = ({ children, className }: BasicCardProps) => {
   return (
     <div
       className={cn(
-        "bg-white rounded-lg shadow-md p-4 border border-gray-200",
+        "bg-white rounded-2xl shadow-xl p-6 border border-gray-100 transition-all duration-300 hover:shadow-2xl",
         className
       )}
     >

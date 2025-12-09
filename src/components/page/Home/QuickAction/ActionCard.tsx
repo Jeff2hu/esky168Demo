@@ -16,17 +16,37 @@ const IconMap = {
   4: BarChart3,
 };
 
+const gradientClasses = [
+  "gradient-blue",
+  "gradient-green",
+  "gradient-orange",
+  "gradient-purple-pink",
+];
+
+const hoverBgColors = [
+  "hover:bg-blue-50",
+  "hover:bg-green-50",
+  "hover:bg-orange-50",
+  "hover:bg-purple-50",
+];
+
 const ActionCard = ({ title, id, path }: LinkCardType) => {
   const { t } = useTranslation();
   const Icon = IconMap[id as keyof typeof IconMap] as React.ElementType;
+  const gradientClass = gradientClasses[id - 1];
+  const hoverBgClass = hoverBgColors[id - 1];
 
   return (
     <Link
       to={path}
-      className="flex flex-col items-center gap-3 p-4 rounded-lg border-2 border-gray-200 hover:border-blue-500 hover:bg-blue-50 transition-all group"
+      className={`flex flex-col items-center gap-4 p-6 rounded-2xl bg-white border border-gray-100 ${hoverBgClass} hover:shadow-lg hover:border-transparent transition-all duration-300 group hover:-translate-y-1`}
     >
-      <Icon className="w-8 h-8 text-gray-600 group-hover:text-blue-600 transition-colors" />
-      <span className="text-sm font-medium text-gray-900">
+      <div
+        className={`p-3 rounded-xl ${gradientClass} shadow-md group-hover:scale-110 transition-transform duration-300`}
+      >
+        <Icon className="w-6 h-6 text-white" />
+      </div>
+      <span className="text-sm font-semibold text-gray-700 text-center group-hover:text-gray-900 transition-colors">
         {t(`HOME.${title}`)}
       </span>
     </Link>

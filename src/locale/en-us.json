@@ -1,7 +1,8 @@
 {
   "COMMON": {
     "NO_DATA": "No data",
-    "BACK": "Back"
+    "BACK": "Back",
+    "LOADING": "Loading..."
   },
   "LOGIN": {
     "TITLE": "Login System",
@@ -12,7 +13,8 @@
     "LOGIN": "Login",
     "ACCOUNT_MIN_LENGTH": "Account must be at least 4 characters",
     "PASSWORD_MIN_LENGTH": "Password must be at least 8 characters",
-    "LOGOUT": "Logout"
+    "LOGOUT": "Logout",
+    "WELCOME_BACK": "Welcome back, please login to your account"
   },
   "LANGUAGE": {
     "SELECT": "Select Language",
@@ -22,6 +24,7 @@
   "HOME": {
     "TITLE": "Home",
     "DESCRIPTION": "This is the home page description",
+    "STATISTICS": "Statistics",
     "TOTAL_SALES": "Total Sales",
     "ORDER_COUNT": "Order Count",
     "INVENTORY_PRODUCT": "Inventory Product",
@@ -33,11 +36,22 @@
     "REPORT_STATISTICS": "Report Statistics"
   },
   "SALES_MANAGEMENT": {
+    "TITLE": "Sales Management",
+    "DESCRIPTION": "Manage and query sales order information",
+    "SEARCH_FILTERS": "Search Filters",
+    "SEARCH_RESULTS": "Search Results",
+    "SEARCH_BUTTON": "Search",
+    "RESET_BUTTON": "Reset",
     "SALES_ORDER_NUMBER": "Sales Order Number",
     "SALES_ORDER_DATE": "Sales Order Date",
     "CUSTOMER_ORDER_NUMBER": "Customer Order Number",
     "CUSTOMER_NAME": "Customer Name",
     "WAREHOUSE_CODE": "Warehouse Code",
-    "SALES_TOTAL": "Sales Total"
+    "SALES_TOTAL": "Sales Total",
+    "SALES_ORDER_NUMBER_PLACEHOLDER": "SO-2025-0001",
+    "CUSTOMER_ORDER_NUMBER_PLACEHOLDER": "PO-2025-0123",
+    "CUSTOMER_NAME_PLACEHOLDER": "Enter your customer name",
+    "WAREHOUSE_CODE_PLACEHOLDER": "Enter your warehouse code",
+    "SALES_TOTAL_PLACEHOLDER": "Enter your sales total"
   }
 }

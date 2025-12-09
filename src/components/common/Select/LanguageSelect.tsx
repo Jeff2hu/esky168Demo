@@ -14,13 +14,18 @@ const languages = [
 
 interface LanguageSelectProps {
   containerClassName?: string;
+  onValueChange?: (value: string) => void;
 }
 
-const LanguageSelect = ({ containerClassName }: LanguageSelectProps) => {
+const LanguageSelect = ({
+  containerClassName,
+  onValueChange,
+}: LanguageSelectProps) => {
   const { t, i18n } = useTranslation();
 
   const handleChange = (value: string) => {
     i18n.changeLanguage(value);
+    onValueChange?.(value);
   };
 
   return (

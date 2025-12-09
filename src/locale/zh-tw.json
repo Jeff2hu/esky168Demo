@@ -1,7 +1,8 @@
 {
   "COMMON": {
     "NO_DATA": "無資料",
-    "BACK": "返回"
+    "BACK": "返回",
+    "LOADING": "載入中..."
   },
   "LOGIN": {
     "TITLE": "登入系統",
@@ -12,7 +13,8 @@
     "LOGIN": "登入",
     "ACCOUNT_MIN_LENGTH": "帳號至少需要4個字元",
     "PASSWORD_MIN_LENGTH": "密碼至少需要8個字元",
-    "LOGOUT": "登出"
+    "LOGOUT": "登出",
+    "WELCOME_BACK": "歡迎回來，請登入您的帳戶"
   },
   "LANGUAGE": {
     "SELECT": "選擇語言",
@@ -22,6 +24,7 @@
   "HOME": {
     "TITLE": "首頁",
     "DESCRIPTION": "這是首頁的描述",
+    "STATISTICS": "統計數據",
     "TOTAL_SALES": "總銷售額",
     "ORDER_COUNT": "訂單數量",
     "INVENTORY_PRODUCT": "庫存產品",
@@ -33,11 +36,22 @@
     "REPORT_STATISTICS": "報表統計"
   },
   "SALES_MANAGEMENT": {
+    "TITLE": "銷售管理",
+    "DESCRIPTION": "管理和查詢銷售訂單資訊",
+    "SEARCH_FILTERS": "搜尋條件",
+    "SEARCH_RESULTS": "搜尋結果",
+    "SEARCH_BUTTON": "搜尋",
+    "RESET_BUTTON": "重置",
     "SALES_ORDER_NUMBER": "銷貨單號",
     "SALES_ORDER_DATE": "銷貨日期",
     "CUSTOMER_ORDER_NUMBER": "客戶單號",
     "CUSTOMER_NAME": "客戶名稱",
     "WAREHOUSE_CODE": "庫別代號",
-    "SALES_TOTAL": "銷貨總額"
+    "SALES_TOTAL": "銷貨總額",
+    "SALES_ORDER_NUMBER_PLACEHOLDER": "SO-2025-0001",
+    "CUSTOMER_ORDER_NUMBER_PLACEHOLDER": "PO-2025-0123",
+    "CUSTOMER_NAME_PLACEHOLDER": "請輸入客戶名稱",
+    "WAREHOUSE_CODE_PLACEHOLDER": "請輸入庫別代號",
+    "SALES_TOTAL_PLACEHOLDER": "請輸入銷貨總額"
   }
 }
