@@ -6,6 +6,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
+import { Loader2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 interface TableProps<T> {
@@ -17,10 +18,24 @@ interface TableProps<T> {
     align?: "left" | "center" | "right";
   }[];
   hoverable?: boolean;
+  isLoading?: boolean;
 }
 
-export function Table<T>({ data, columns, hoverable = true }: TableProps<T>) {
+export function Table<T>({
+  data,
+  columns,
+  hoverable = true,
+  isLoading = false,
+}: TableProps<T>) {
   const { t } = useTranslation();
+
+  if (isLoading) {
+    return (
+      <div className="flex items-center justify-center h-40">
+        <Loader2 className="w-6 h-6 text-gray-500 animate-spin" />
+      </div>
+    );
+  }
 
   return (
     <div className="w-full overflow-auto">

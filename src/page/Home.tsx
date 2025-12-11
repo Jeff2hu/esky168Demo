@@ -1,8 +1,8 @@
-import StatisticCardsList from "@/components/page/Home/Statistic/StatisticCardsList";
-import QuickAction from "@/components/page/Home/QuickAction/QuickAction";
-import { Sparkles } from "lucide-react";
-import Title from "@/components/page/Home/Title/Title";
 import Header from "@/components/common/Header/Header";
+import Title from "@/components/common/Title/Title";
+import QuickActionList from "@/components/page/Home/QuickAction/QuickActionList";
+import StatisticCardsList from "@/components/page/Home/Statistic/StatisticCardsList";
+import { Sparkles } from "lucide-react";
 
 const statsData = [
   {
@@ -53,7 +53,7 @@ const Home = () => {
 
           <div className="flex flex-col gap-3">
             <Title title="HOME.QUICK_ACTIONS" />
-            <QuickAction data={quickActions} />
+            <QuickActionList data={quickActions} />
           </div>
         </div>
       </div>

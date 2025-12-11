@@ -1,3 +1,4 @@
+import FallbackList from "@/components/common/FallbackList/FallbackList";
 import StatisticCard, {
   type Statistic,
 } from "@/components/page/Home/Statistic/StatisticCard";
@@ -8,11 +9,13 @@ interface StatisticCardsListProps {
 
 const StatisticCardsList = ({ data }: StatisticCardsListProps) => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
-      {data.map((statistic, index) => (
+    <FallbackList
+      data={data}
+      gridClassName="grid-cols-1 sm:grid-cols-2 lg:grid-cols-4"
+      renderItem={(statistic, index) => (
         <StatisticCard key={index} statistic={statistic} />
-      ))}
-    </div>
+      )}
+    />
   );
 };
 
